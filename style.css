@@ -1,0 +1,16 @@
+.oldpages-warning {
+    background-color: #ffe0e0;
+    border: 1px solid #cc0000;
+    padding: 1em;
+    border-radius: 6px;
+    margin: 1em 0;
+}
+
+.oldpages-warning ul {
+    margin-top: 0.5em;
+}
+
+.oldpages-warning li::before {
+    content: "⚠ ";
+    color: #cc0000;
+}

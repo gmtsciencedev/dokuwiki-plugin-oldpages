@@ -1,0 +1,7 @@
+base   oldpages
+author Raynald de Lahondès
+date   2025-06-02
+name   Old Pages Plugin
+desc   List page older than a given age
+url    https://github.com/gmtsciencedev/dokuwiki-plugin-oldpage
+stylesheets = style.css
