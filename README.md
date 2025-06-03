@@ -20,3 +20,17 @@ For instance we use it like this:
 Which means look for page in the `regulatory:smq` namespace (or its subnamespaces) for pages older than 30 months. In our documentation system this is a bad thing so the default style is redish and alarming, but you can tune that by overriding the `oldpages-warning` CSS class in your template.
 
 It is bilingual for now and support English and French.
+
+## Install
+
+Copy the complete repo as `oldpages` in your dokuwiki/lib/plugins/ folder, like this:
+
+```sh
+cd dokuwiki/lib/plugins
+git clone https://github.com/gmtsciencedev/dokuwiki-plugin-oldpages.git oldpages
+```
+
+And restart dokuwiki.
+
+### Compatibility
+Tested with Dokuwiki chaos. (librarian untested, waiting for move plugin stabilisation)
